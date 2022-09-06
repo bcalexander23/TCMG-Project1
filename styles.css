@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee Shade');
+
+*{
+    text-align: center;
+}
+
+
+.title{
+    padding-bottom: 20px;
+    font-family: "Bungee Shade", serif;
+    font-size: 500%;
+    background-color: transparent;
+}
+
+.center{
+    background: url("css/img/techbkg.jpg"), #7cc28d;
+    background-size: 80%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.solid-color {
+    background-color: #7cc28d;
+    margin-inline: 15%;
+    margin-top: 0;
+    border-radius: 20px;
+
+}
+
+.solid-color footer{
+    background-color: #7cc28d;
+    border-radius: 15px;
+}
+
+.page-title{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.pagelink li{
+    font-size: 30px;
+    padding-right: 50px;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    display: inline;
+    list-style: none;
+}
+
+.button{
+    background-color: #659c72;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.button:hover{
+    background-color: #406348;
+    transition: .5s;
+}
+
+.main-body{
+    padding: 10px;
+}
+
+.content-wrap{
+    padding-bottom: 2.5rem;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.image{
+    width: 300px;
+    justify-content: center;
+}
+
+.name{
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+    margin: 110px;
+}
+
+.txt{
+    padding-inline: 100px;
+}
